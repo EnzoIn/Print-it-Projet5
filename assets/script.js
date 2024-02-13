@@ -37,6 +37,8 @@ let bannerImg = document.querySelector(".banner-img");
 
 let index = 0;
 
+slides[0].bulletPoint.classList.add("dot_selected")
+
 //Evènement au clique arrow
 arrowLeft.addEventListener("click", function () {
   slides[index].bulletPoint.classList.remove("dot_selected");
